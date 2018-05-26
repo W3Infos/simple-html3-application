@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{/* Select everything on web page*/
+	font-family:sans-serif;
+	text-align:center;
+}
+/* Centering the webpage*/
+#center_mark{
+	width: 960px;
+	text-align:left;
+	/* border: 2px solid red; */
+	margin: 0px auto; /* 0px will take top and bottom, auto will take left and right*/
+	
+}
+/* Header css starts here*/
+#page_header{
+	border: 2px solid blue;
+	margin-top:10px;
+}
+.logo{
+	display:inline;
+	vertical-align:middle;
+}
+.head_text{
+	display:inline;
+}
+/* 
+* Header css ends here
+* Navigation stylings starts here
+*/
+#top_nav{
+	border:2px solid red;
+	margin: 5px 0px;
+	padding:10px;
+}
+#top_nav ul{
+	list-style-type:none;
+}
+#top_nav ul li{
+	display:inline;
+}
+#top_nav ul li a{
+	margin:10px;
+}
+/* 
+* Navigation stylings ends here
+* the section stylings strts here
+*/
+#the_section{ /* total width 640px*/
+	float:left;
+	margin:0px 10px 10px 0px; /*top right bottom left 10px width */
+	padding: 10px; /*Overall width for padding 20px*/
+	border:2px solid green;/*4px add to width*/
+	width:606px;
+	
+}
+/* 
+* the_section stylings ends here
+* side stylings strts here
+*/
+
+#side_news{/*total 320px*/
+	float:left;
+	padding:10px;/* -20px;*/
+	border:2px solid orange; /* -4px*/
+	width:296px;
+}
+
+
+/* 
+* side stylings ends here
+* Start footer styling here
+*/
+
+#page_footer{
+	clear:both;
+	padding:10px;
+	text-align:center;
+	border:2px solid black;
+	
+}
+/*Ends footer styings here*/
